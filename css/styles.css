@@ -580,7 +580,7 @@ img {
 
   display: flex;
   align-items: baseline;
-  gap: 70px;
+  justify-content: space-between;
 }
 
 .logo-bottom {
@@ -641,7 +641,7 @@ img {
   display: block;
 
   width: 570px;
-  height: 86;
+  height: 86px;
 }
 
 .follow-title {
@@ -723,7 +723,6 @@ img {
   transition: transform var(--main-animation);
 
   width: 528px;
-  min-height: 581px;
   padding: 40px;
 
   background-color: var(--main-bg-cl);
@@ -758,7 +757,6 @@ img {
 
 /* REGISTER FORM */
 .box-register-form {
-  display: block;
   margin: 0 0 20px;
 }
 
